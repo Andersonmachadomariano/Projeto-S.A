@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background: rgb(121, 134, 160)
+		}
+
+		#circ {
+			font: 25px arial;
+			color: antiquewhite;
+
+		}
+
+		#r1 {
+			color: rgb(92, 16, 16);
+			position: relative;
+			top: -190px;
+			left: 230px;
+		}
+
+		#r2 {
+			color: rgb(92, 16, 16);
+			position: relative;
+			top: -190px;
+			left: 290px;
+		}
+
+		#r3 {
+			color: rgb(92, 16, 16);
+			position: relative;
+			top: -190px;
+			left: 370px;
+		}
+
+		#img {
+			position: relative;
+			top: 0px;
+			left: -40px;
+		}
+
+		.font {
+			position: relative;
+			top: 20px;
+			left: 190px;
+		}
+
+		#src2 {
+			position: relative;
+			top: 0px;
+			left: 60px;
+		}
+
+		.font2 {
+			position: relative;
+			top: 0px;
+			left: 0px;
+		}
+
+		#c2 {
+			position: relative;
+			top: -50px;
+			left: 60px;
+		}
+
+		#r1t1 {
+			color: rgb(92, 16, 16);
+			position: relative;
+			top: -190px;
+			left: 290px;
+		}
+
+		#r2t2 {
+			color: rgb(92, 16, 16);
+			position: relative;
+			top: -190px;
+			left: 370px;
+		}
+
+		#r3t3 {
+			color: rgb(92, 16, 16);
+			position: relative;
+			top: -190px;
+			left: 460px;
+		}
+
+		#macon {
+			position: relative;
+			top: 100px;
+			font: 25px arial;
+			color: rgb(255, 244, 246);
+		}
+
+		#div2 {
+			position: relative;
+			top: 300px;
+		}
+	</style>
+	<title>Document</title>
+
+
+</head>
+
+<title>Eletrotecnico</title>
+
+<body>
+	<!--pagina de inicio-->
+	<button>
+		<h8>
+			<a class="container-fluid" href="./inicial_sa.html">inicio</a>
+		</h8>
+	</button>
+	<!--inicio da pagina-->
+	<h1>Assoiciação de resistor</h1>
+	<h2>calculo de correntes</h2>
+	<!--os tipos de botão-->
+	<br>
+	<div>
+		<a id="circ" type="text">Circuito Continuo</a>
+		<br>
+		<input type="number" style="width: 40px" id="r1">
+		<input type="number" style="width: 40px" id="r2">
+		<input type="number" style="width: 40px" id="r3">
+
+		<select id="circuito" class="font">
+			<option value="1.5">Font 1.5 V</option>
+			<option value="2.2">Font 2.2 V</option>
+			<option value="4.5">Font 4.5 V</option>
+			<option value="7.0">Font 7.0 V</option>
+			<option value="10">Font 10 V</option>
+			<option value="12">Font 12 V</option>
+		</select>
+
+		<img id="img" src="./continuo.jpg">
+		<input type="button" id="c1" value="calcular">
+		<a id="resultado"></a>
+		<br>
+	</div>
+	<div id="div2">
+
+		<a id="macon" type="text">Circuito Paralelo</a>
+		<input type="number" style="width: 30px" id="r1t1">
+		<input type="number" style="width: 30px" id="r2t2">
+		<input type="number" style="width: 30px" id="r3t3">
+
+		<select id="circuito" class="font2">
+			<a id="resusltado"></a>
+			<option value="1.5">Font 1.5 V</option>
+			<option value="2.2">Font 2.2 V</option>
+			<option value="4.5">Font 4.5 V</option>
+			<option value="7.0">Font 7.0 V</option>
+			<option value="10">Font 10 V</option>
+			<option value="12">Font 12 V</option>
+		</select>
+
+		<img id="src2" src="./continuo.jpg">
+		<input type="button" id="c2" value="calcular">
+		<a id="resultado2"></a>
+	</div>
+	</p>
+	<!--atribuir uma função quando o botão circuito for ativado-->
+</body>
+<script src="./index.js"></script>
+
+</html>

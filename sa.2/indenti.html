@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #img {
+            position: relative;
+            left: 300px;
+        }
+
+        #circuito {
+            position: relative;
+            left: -120px;
+            top: -50px;
+        }
+
+        #led {
+            color: blue;
+            position: relative;
+            left: 190px;
+            top: -50px;
+        }
+
+        #b1 {
+            position: relative;
+            left: 150px;
+        }
+        #r1{position: relative;
+            top: -150px;
+            left: -130px;
+        }#r2{position: relative;
+        left: -140px;
+    top: -70px;}
+    #r3{
+        position: relative;
+        top: -130px;
+    left: -110px;    }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <button>
+        <a class="container-fluid" href="./inicial_sa.html">inicio</a>
+    </button>
+    <h1>OLÁ MUNDO</h1>
+    <img id="img" src="./images.png">
+    <!--font-->
+    <select id="circuito" class="font">
+        <option value="1.5">Font 1.5 V</option>
+        <option value="2.2">Font 2.2 V</option>
+        <option value="4.5">Font 4.5 V</option>
+        <option value="7.0">Font 7.0 V</option>
+        <option value="10">Font 10 V</option>
+        <option value="12">Font 12 V</option>
+    </select>
+    <!--led-->
+    <a value="2" id="led">oi</a>
+    <!--botão calcular-->
+    <input type="button" value="calcular" id="b1">
+    <!--resistores-->
+    <input type="text" style="width: 40px" id="r1">
+    <input type="text" style="width: 40px" id="r2">
+    <input type="text" style="width: 40px" id="r3">
+    <!--saida-->
+    <a id="resultado"></a>
+</body>
+<script src="./indenti.js"></script>
+</html>
